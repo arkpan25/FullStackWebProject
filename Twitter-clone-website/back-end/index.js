@@ -30,8 +30,8 @@ app.get('/api/messages', function(req, res, next) {
     })
 });
 
-const PORT = 8081
 
-app.listen(PORT, function(){
+
+app.listen(process.env.PORT3000, function(){
   console.log(`Server is listening on port ${PORT}`);
 });
